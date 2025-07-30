@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.ScrollPane?>
+<ScrollPane fitToWidth="true" fitToHeight="true" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.upol.logicgo.controllers.gameChoiceControllers.GameChoiceController">
+    <content>
+        <VBox fx:id="content" stylesheets="@../../css/game_choice.css" spacing="10" >
+            <children>
+                <VBox spacing="5" styleClass="section">
+                    <Label styleClass="gameLabel" text="Sudoku" />
+                    <TilePane fx:id="sudokuChoiceTilePane" alignment="CENTER" hgap="10" prefHeight="200.0" tileAlignment="TOP_LEFT" vgap="10" />
+                </VBox>
+
+                <VBox spacing="5" styleClass="section">
+                    <Label styleClass="gameLabel" text="Maze" />
+                    <TilePane fx:id="mazeChoiceTilePane" alignment="CENTER" hgap="10" prefHeight="200.0" tileAlignment="TOP_LEFT" vgap="10" />
+                </VBox>
+
+                <VBox spacing="5" styleClass="section">
+                    <Label styleClass="gameLabel" text="Bridge" />
+                    <TilePane fx:id="bridgeChoiceTilePane" alignment="CENTER" hgap="10" prefHeight="200.0" tileAlignment="TOP_LEFT" vgap="10" />
+                </VBox>
+            </children>
+        </VBox>
+    </content>
+</ScrollPane>

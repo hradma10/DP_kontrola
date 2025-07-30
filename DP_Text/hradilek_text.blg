@@ -1,0 +1,14 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'hradilek_text.blg'
+[166] biber-MSWIN64:340> INFO - === 
+[229] Biber.pm:419> INFO - Reading 'hradilek_text.bcf'
+[361] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
+[383] Biber.pm:4419> INFO - Processing section 0
+[400] Biber.pm:4610> INFO - Looking for bibtex file 'bibliografie.bib' for section 0
+[481] bibtex.pm:1713> INFO - LaTeX decoding ...
+[505] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografie.bib'
+[573] UCollate.pm:68> INFO - Overriding locale 'cs_CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[574] UCollate.pm:68> INFO - Overriding locale 'cs_CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
+[574] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'cs_CZ'
+[585] bbl.pm:660> INFO - Writing 'hradilek_text.bbl' with encoding 'UTF-8'
+[589] bbl.pm:763> INFO - Output to hradilek_text.bbl

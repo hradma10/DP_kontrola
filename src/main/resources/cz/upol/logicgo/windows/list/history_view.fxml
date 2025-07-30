@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox styleClass="padded" spacing="10.0" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.upol.logicgo.controllers.listControllers.HistoryViewController">
+    <HBox spacing="10">
+        <children>
+            <Label style="-fx-font-size: 18px; -fx-font-weight: bold;" text="Historie her" />
+            <Button mnemonicParsing="false" managed="false" onAction="#onFilterButtonAction" text="Filtrování" />
+            <Button mnemonicParsing="false" onAction="#refresh" text="Aktualizovat" />
+        </children>
+    </HBox>
+    <ListView fx:id="historyListView" VBox.vgrow="ALWAYS" />
+
+    <Pagination fx:id="pagination" />
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

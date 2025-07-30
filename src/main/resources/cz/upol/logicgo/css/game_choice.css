@@ -1,0 +1,61 @@
+.gameLabel {
+    -fx-padding: 8px 12px;
+    -fx-background-color: linear-gradient(to bottom, #7b5ed2, #5e3bbd);
+    -fx-background-radius: 8px;
+    -fx-font-size: 32px;
+    -fx-text-fill: #000000;
+    -fx-alignment: CENTER_LEFT;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 2, 0, 0, 1);
+    -fx-transition: background-color 0.3s ease;
+}
+
+#content {
+    -fx-background-color: #2E3440FF;
+    -fx-padding: 15;
+}
+
+/* Styl pro jednotlivé sekce (Label + TilePane) */
+.section {
+    -fx-background-color: #3B4252FF; /* o trochu světlejší než pozadí */
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-border-color: #81A1C1FF; /* světle modrá linka */
+    -fx-border-width: 0 0 3 0; /* spodní ohraničení */
+}
+
+/* Styl pro Label sekcí */
+.gameLabel {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 5;
+}
+
+.gameTypeBox {
+    -fx-pref-width: 320;
+    -fx-pref-height: 320;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 6, 0.1, 0, 2);
+    -fx-cursor: hand;
+    -fx-overflow: hidden;
+}
+
+.gamePreviewImage {
+    -fx-fit-width: 200;
+    -fx-fit-height: 200;
+    -fx-preserve-ratio: false;
+}
+
+.labelContainer {
+    -fx-background-color: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    -fx-padding: 6;
+    -fx-alignment: center;
+    -fx-pref-height: 40;
+}
+
+.gameNameLabel {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}

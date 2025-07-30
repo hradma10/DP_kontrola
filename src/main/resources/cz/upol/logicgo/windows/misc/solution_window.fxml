@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane style="-fx-background-color: white" fx:id="pane" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.upol.logicgo.controllers.miscControllers.SolutionWindowController">
+   <children>
+      <Canvas fx:id="canvas" height="500.0" style="-fx-border: black;" width="500.0" />
+   </children>
+</Pane>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="10" styleClass="padded" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.upol.logicgo.controllers.gameChoiceControllers.SudokuSettingsMenu">
+    <children>
+        <GridPane hgap="10" vgap="10">
+            <columnConstraints>
+                <ColumnConstraints halignment="RIGHT" minWidth="150.0" />
+                <ColumnConstraints hgrow="ALWAYS" minWidth="250.0" />
+            <ColumnConstraints />
+            </columnConstraints>
+
+            <Label fx:id="difficultyLabel" text="Test:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <ChoiceBox fx:id="difficultyChoiceBox" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+            <Label fx:id="hintsOnLabel" text="Test:" GridPane.columnIndex="0" />
+            <CheckBox fx:id="hintsOnCheckBox" GridPane.columnIndex="1" />
+
+            <Label fx:id="hintTypeLabel" text="Test:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <CheckBox fx:id="hintTypeCheckBox" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+            <Label fx:id="hintTypeChoiceLabel" text="Test:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+            <ComboBox fx:id="hintTypeComboBox" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+            <Label fx:id="cellNotesLabel" text="Test:" GridPane.rowIndex="5" />
+            <CheckBox fx:id="cellNotesCheckBox" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+
+            <Label fx:id="timerLabel" text="Test:" GridPane.rowIndex="6" />
+            <CheckBox fx:id="timerCheckBox" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+
+            <Label fx:id="seedLabel" text="Seed:" GridPane.rowIndex="8" />
+            <TextField fx:id="seedTextField" GridPane.columnIndex="1" GridPane.rowIndex="8" style="-fx-max-width: 150px;" />
+         <Pane fx:id="pane" maxHeight="300.0" maxWidth="300.0" minHeight="300.0" minWidth="300.0" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.rowSpan="8">
+            <children>
+               <Canvas fx:id="canvas" height="300.0" width="300.0" />
+            </children>
+         </Pane>
+
+            <Label fx:id="regionLabel" layoutX="135.0" layoutY="41.0" text="Test:" GridPane.rowIndex="7" />
+         <ChoiceBox fx:id="regionLayoutChoiceBox" layoutX="170.0" layoutY="37.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+        </GridPane>
+
+        <HBox alignment="CENTER_RIGHT" spacing="10">
+            <children>
+                <Button fx:id="okButton" onAction="#handleOk" text="OK" />
+                <Button fx:id="cancelButton" onAction="#handleCancel" text="Cancel" />
+            </children>
+        </HBox>
+    </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

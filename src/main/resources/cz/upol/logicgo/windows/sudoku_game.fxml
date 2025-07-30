@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.control.Separator?>
+<BorderPane prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.upol.logicgo.controllers.screenControllers.SudokuGameController">
+    <top>
+        <ToolBar BorderPane.alignment="CENTER" fx:id="topToolbar">
+            <items>
+                <Button fx:id="buttonUndo" text="Zpět" onAction="#onUndo" />
+                <Button fx:id="buttonRedo" text="Znovu" onAction="#onRedo" />
+
+                <Separator orientation="VERTICAL" />
+
+                <Button fx:id="buttonHint" text="Pomoc" onAction="#hintAction" />
+                <Button fx:id="buttonNotes" managed="false" text="Poznámky" onAction="#openNotes" />
+                <Button fx:id="buttonHelp" managed="false" text="Jak hrát?" onAction="#openHelp" />
+
+                <Separator orientation="VERTICAL" />
+
+
+                <Button fx:id="buttonSolution" text="Řešení" onAction="#openSolution" />
+
+                <Separator orientation="VERTICAL" />
+
+                <Button fx:id="buttonExport" text="Export" onAction="#openExport" />
+                <Button fx:id="buttonSettings" managed="false" text="Nastavení" onAction="#onSettings" />
+
+                <Separator orientation="VERTICAL" />
+
+                <Button fx:id="buttonRestart" text="Restart" onAction="#onRestart" />
+                <Button fx:id="buttonExit" text="Ukončit" onAction="#onExit" />
+            </items>
+        </ToolBar>
+    </top>
+
+    <center>
+        <Pane fx:id="gamePane" style="-fx-background-color: white" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onKeyPressed" onKeyReleased="#onKeyReleased" onMouseClicked="#onMouseClicked" onMouseMoved="#onMouseMoved" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" prefHeight="700.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+            <children>
+                <Canvas fx:id="primaryCanvas" height="700.0" onKeyPressed="#onKeyPressed" onKeyReleased="#onKeyReleased" onMouseClicked="#onMouseClicked" onMouseMoved="#onMouseMoved" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" width="700.0" />
+                <Canvas fx:id="secondaryCanvas" height="700.0" onKeyPressed="#onKeyPressed" onKeyReleased="#onKeyReleased" onMouseClicked="#onMouseClicked" onMouseMoved="#onMouseMoved" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" width="700.0" />
+            </children>
+        </Pane>
+    </center>
+    <right>
+        <VBox alignment="TOP_CENTER" fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="465.0" prefWidth="234.0" spacing="100.0" BorderPane.alignment="CENTER_LEFT">
+            <children>
+                <Label fx:id="countdownTimer" styleClass="gameTimer" text="timer" />
+                <Button fx:id="buttonPause" onAction="#onPauseButtonPressed" />
+            </children>
+        </VBox>
+    </right>
+</BorderPane>

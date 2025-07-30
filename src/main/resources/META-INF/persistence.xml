@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence" version="3.0">
+    <persistence-unit name="logic-games-pu" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>cz.upol.logicgo.model.games.entity.user.User</class>
+        <class>cz.upol.logicgo.model.games.entity.setting.GameSetting</class>
+        <class>cz.upol.logicgo.model.games.entity.setting.DefaultGameSetting</class>
+        <class>cz.upol.logicgo.model.games.entity.setting.UserSetting</class>
+        <class>cz.upol.logicgo.model.games.entity.setting.Setting</class>
+        <class>cz.upol.logicgo.model.games.entity.sudoku.Sudoku</class>
+        <class>cz.upol.logicgo.model.games.entity.mazes.Maze</class>
+        <class>cz.upol.logicgo.model.games.entity.bridges.Bridge</class>
+        <class>cz.upol.logicgo.model.games.entity.export.ExportedGames</class>
+    </persistence-unit>
+</persistence>

@@ -1,0 +1,324 @@
+
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #2E3440FF;
+}
+
+/* MenuBar */
+.menu-bar {
+    -fx-background-color: #263238;
+    -fx-padding: 0 10 0 10;
+}
+
+.menu-bar .label {
+    -fx-text-fill: white;
+}
+
+.menu .context-menu {
+    -fx-background-color: #37474F;
+}
+
+.menu .menu-item .label {
+    -fx-text-fill: white;
+}
+
+
+
+.button:hover {
+    -fx-background-color: #1976D2;
+}
+
+/* Labely */
+.label {
+    -fx-text-fill: white
+}
+
+/* Status bar (HBox ve spodní části) */
+#HBox {
+    -fx-background-color: #ECEFF1;
+    -fx-border-color: #CFD8DC;
+    -fx-border-width: 1 0 0 0;
+}
+
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.tab-pane {
+    -fx-tab-min-width: 100px;
+    -fx-tab-max-width: 200px;
+    -fx-tab-min-height: 32px;
+    -fx-tab-max-height: 32px;
+}
+
+.tab-header-area {
+    -fx-background-color: #263238;
+}
+
+.tab {
+    -fx-background-color: #455157;
+    -fx-text-base-color: #B0BEC5;
+    -fx-padding: 6 15 6 15;
+    -fx-font-weight: bold;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-color: transparent;
+}
+
+.tab-content-area {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-padding: 20;
+}
+
+.tab:hover {
+    -fx-background-color: #5a6066;
+    -fx-text-base-color: #FFFFFF;
+    -fx-cursor: hand;
+}
+
+.tab:selected {
+    -fx-background-color: #7b7f85;
+    -fx-text-base-color: white;
+    -fx-border-color: transparent transparent #616161 transparent;
+    -fx-border-width: 0 0 2px 0;
+    -fx-background-radius: 0;
+}
+
+
+
+
+.button-box {
+    -fx-background-color: linear-gradient(to bottom, #7b5ed2, #5e3bbd);
+    -fx-background-radius: 12;
+    -fx-padding: 20 0 20 0;
+    -fx-alignment: center;
+    -fx-cursor: hand;
+    -fx-spacing: 5;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 6, 0.3, 0, 2);
+    -fx-pref-width: 150;
+    -fx-pref-height: 140;
+}
+
+.button-box:hover {
+    -fx-background-color: linear-gradient(to bottom, #9575cd, #7b5ed2);
+    -fx-scale-x: 1.03;
+    -fx-scale-y: 1.03;
+}
+
+.button-box:pressed {
+    -fx-background-color: linear-gradient(to bottom, #5e3bbd, #452e9e);
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+}
+
+.button-box Label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+#topToolbar {
+    -fx-background-color: #263238;
+}
+
+
+.gameTimer {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: linear-gradient(to right, #4e54c8, #8f94fb);
+    -fx-padding: 8 16;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 4, 0, 0, 2);
+    -fx-alignment: center;
+}
+
+.app-title {
+    -fx-font-size: 54px;
+    -fx-font-weight: bold;
+    -fx-text-fill: linear-gradient(to right, #b266ff, #a64bf4, #9240d9);
+    -fx-effect: dropshadow(gaussian, rgba(60, 0, 90, 0.4), 6, 0.5, 0, 2);
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.stats-box {
+    -fx-padding: 15;
+    -fx-background-color: #f3f3f3;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+.stats-title {
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-underline: true;
+    -fx-padding: 0 0 10 0;
+}
+
+#gamePlayedLabel, #wonGamesLabel, #gamesInProgress {
+    -fx-font-size: 14px;
+}
+
+#dailyGameBox {
+    -fx-background-color: #7a7790;
+    -fx-border-color: #b3aede;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-padding: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.12), 8, 0.25, 0, 4);
+}
+
+.greeting-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.6), 3, 0.4, 0, 1);
+    -fx-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    -fx-padding: 8 15 8 15;
+}
+
+.list-view {
+    -fx-control-inner-background: #2e2e2e;
+    -fx-background-color: #2e2e2e;
+}
+
+.text-field {
+    -fx-control-inner-background: #666666;
+    -fx-background-color: #666666;
+    -fx-text-fill: #f5f5f5;
+    -fx-prompt-text-fill: #cccccc;
+    -fx-background-insets: 0;
+    -fx-background-radius: 6;
+}
+
+.text-field.error {
+    -fx-control-inner-background: #7a2f2f;
+    -fx-background-color: #7a2f2f;
+    -fx-text-fill: #fff0f0;
+    -fx-prompt-text-fill: #ffbaba;
+    -fx-border-color: #ff4c4c;
+    -fx-border-width: 2;
+    -fx-border-radius: 6;
+}
+
+.choice-box, .text-field, .list-view {
+    -fx-text-fill: white;
+}
+
+.choice-box .label {
+    -fx-text-fill: black;
+}
+
+#dailyGameCanvas, #dailyGamePane {
+    -fx-border-color: #dddddd;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-background-color: white;
+}
+
+.dailyGameTitle {
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+.dailyGameBox {
+    -fx-background-color: linear-gradient(to bottom, #3e3a60, #2d2a4a);
+    -fx-padding: 15;
+    -fx-spacing: 10;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #7b5ed2;
+    -fx-border-width: 2;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 8, 0.3, 0, 2);
+}
+
+.dailyGameBox Label {
+    -fx-text-fill: #f0f0f0;
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+}
+
+#lastPlayedGameTitle {
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-text-fill: #ffcc66;
+}
+
+.button {
+    -fx-background-color: linear-gradient(to right, #7b5ed2, #9575cd);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 6 12;
+    -fx-font-size: 13px;
+}
+.button:hover {
+    -fx-background-color: linear-gradient(to right, #9c7ff0, #b39ddb);
+}
+
+.buttonDelete {
+    -fx-background-color: #9a1c1c;
+}
+
+.buttonDelete:hover {
+    -fx-background-color: #fa1c1c;
+}
+
+.tab-pane .tab-header-area {
+    -fx-padding: 0;
+    -fx-border-width: 0 0 0 0;
+    -fx-background-insets: 0;
+}
+
+.tab-pane .tab-content-area {
+    -fx-padding: 0;
+    -fx-background-insets: 0;
+    -fx-border-width: 0;
+}
+
+.padded {
+    -fx-padding: 10;
+}
+
+.tooltip-icon {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-alignment: center;
+    -fx-padding: 4px;
+    -fx-background-radius: 100%;
+    -fx-min-width: 24px;
+    -fx-min-height: 24px;
+    -fx-max-width: 24px;
+    -fx-max-height: 24px;
+}
+
+.list-cell-app {
+    -fx-background-color: transparent;
+}
+
+.list-cell-app:selected {
+    -fx-background-color: transparent;
+    -fx-border-color: #0078d7;
+    -fx-border-width: 2px;
+    -fx-border-radius: 4px;
+    -fx-padding: 2px;
+}
+
+.progress-indicator {
+    -fx-progress-color: #ffffff;
+    -fx-background-color: transparent;
+}
+
+.progress-indicator .indicator {
+    -fx-background-color: transparent;
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox alignment="CENTER_LEFT" spacing="10.0" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.upol.logicgo.controllers.exportControllers.ExportedGamesListItemController">
+
+    <VBox alignment="CENTER_LEFT" spacing="5.0">
+        <Label fx:id="descriptionLabel" style="-fx-font-weight: bold;" text="Typ" />
+        <Label fx:id="countLabel" text="Počet prvků: 0" />
+        <Label fx:id="difficultyLabel" text="Obtížnost" />
+      <Label fx:id="timeLabel" layoutX="10.0" layoutY="56.0" text="Čas" />
+    </VBox>
+
+     <HBox alignment="CENTER_RIGHT" prefHeight="64.0" prefWidth="256.0" spacing="5.0">
+         <Button fx:id="downloadButton" text="Stáhnout" />
+         <Button fx:id="deleteButton" styleClass="buttonDelete" text="Smazat" />
+         <opaqueInsets>
+             <Insets />
+         </opaqueInsets>
+      <padding>
+         <Insets right="5.0" />
+      </padding>
+     </HBox>
+</HBox>

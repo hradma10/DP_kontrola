@@ -1,0 +1,33 @@
+.dialog-pane {
+    -fx-background-color: linear-gradient(to bottom, #fefefe, #e6f0ff);
+    -fx-border-color: #80b3ff;
+    -fx-border-width: 2;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 20;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: transparent;
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: #3366cc;
+}
+
+.dialog-pane .content.label {
+    -fx-font-size: 13pt;
+    -fx-text-fill: #333333;
+}
+
+.dialog-pane .button-bar .button {
+    -fx-background-color: #80b3ff;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+.dialog-pane .button-bar .button:hover {
+    -fx-background-color: #6699ff;
+}

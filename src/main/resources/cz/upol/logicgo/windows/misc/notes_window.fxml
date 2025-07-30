@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="600.0" maxWidth="800.0" onKeyPressed="#onKeyPressed" onKeyReleased="#onKeyReleased" prefHeight="400" prefWidth="600" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.upol.logicgo.controllers.miscControllers.NotesWindowController">
+   <MenuBar>
+     <menus>
+       <Menu mnemonicParsing="false" text="Nastavení">
+         <items>
+           <MenuItem fx:id="saveMenuItem" mnemonicParsing="false" onAction="#save" text="Uložit" />
+               <MenuItem fx:id="changeFontItem" mnemonicParsing="false" onAction="#changeFont" text="Změnit font" />
+               <MenuItem fx:id="closeMenuItem" mnemonicParsing="false" onAction="#onCloseRequest" text="Zavřít" />
+         </items>
+       </Menu>
+     </menus>
+   </MenuBar>
+
+    <TextArea fx:id="textArea" prefHeight="339.0" prefWidth="600.0" promptText="Zadejte text poznámky" wrapText="true" VBox.vgrow="ALWAYS">
+      <font>
+         <Font name="Calibri" size="18.0" />
+      </font></TextArea>
+    <HBox alignment="CENTER" prefHeight="44.0" prefWidth="302.0" spacing="10.0">
+        <children>
+            <Button fx:id="buttonCancel" layoutX="80.0" layoutY="10.0" mnemonicParsing="false" onAction="#onCloseRequest" prefHeight="48.0" prefWidth="114.0" text="Zrušit" />
+            <Button fx:id="buttonSave" maxHeight="50.0" maxWidth="160.0" minHeight="25.0" minWidth="25.0" mnemonicParsing="false" onAction="#save" prefHeight="44.0" prefWidth="113.0" text="Uložit" />
+        </children>
+    </HBox>
+</VBox>

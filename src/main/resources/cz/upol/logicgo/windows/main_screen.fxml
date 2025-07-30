@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane fx:id="root" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.upol.logicgo.controllers.screenControllers.MainScreenController">
+    <center>
+        <TabPane fx:id="tabPane" minHeight="50.0" minWidth="50.0" prefHeight="157.0" prefWidth="498.0" />
+    </center>
+   <bottom>
+      <HBox prefHeight="20.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="mainScreenTextHelp">
+               <padding>
+                  <Insets left="5.0" />
+               </padding></Label>
+         </children></HBox>
+   </bottom>
+</BorderPane>

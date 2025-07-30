@@ -1,0 +1,170 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{CrossA2025}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c036a4b955b3936143602852597d80c5}{%
+           family={Cross+A},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c036a4b955b3936143602852597d80c5}
+      \strng{fullhash}{c036a4b955b3936143602852597d80c5}
+      \strng{bibnamehash}{c036a4b955b3936143602852597d80c5}
+      \strng{authorbibnamehash}{c036a4b955b3936143602852597d80c5}
+      \strng{authornamehash}{c036a4b955b3936143602852597d80c5}
+      \strng{authorfullhash}{c036a4b955b3936143602852597d80c5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sudoku - Cross+A}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cross-plus-a.com/sudoku.htm
+      \endverb
+      \verb{url}
+      \verb https://www.cross-plus-a.com/sudoku.htm
+      \endverb
+    \endentry
+    \entry{Sudoku.com2025}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e40c82e20eba90bf46d3ec2a9871cc9a}{%
+           family={{Sudoku.com}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e40c82e20eba90bf46d3ec2a9871cc9a}
+      \strng{fullhash}{e40c82e20eba90bf46d3ec2a9871cc9a}
+      \strng{bibnamehash}{e40c82e20eba90bf46d3ec2a9871cc9a}
+      \strng{authorbibnamehash}{e40c82e20eba90bf46d3ec2a9871cc9a}
+      \strng{authornamehash}{e40c82e20eba90bf46d3ec2a9871cc9a}
+      \strng{authorfullhash}{e40c82e20eba90bf46d3ec2a9871cc9a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The History of Sudoku}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://sudoku.com/how-to-play/the-history-of-sudoku/
+      \endverb
+      \verb{url}
+      \verb https://sudoku.com/how-to-play/the-history-of-sudoku/
+      \endverb
+    \endentry
+    \entry{Yato2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ff41e0935b87b6ef151328ea9fa81aec}{%
+           family={Yato},
+           familyi={Y\bibinitperiod},
+           given={Takayuki},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6e7a7d487449bb7c0e02f8b13d5792d9}{%
+           family={Seta},
+           familyi={S\bibinitperiod},
+           given={Takahiro},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{038108ab882df8ebd9dad908c0bdcb40}
+      \strng{fullhash}{038108ab882df8ebd9dad908c0bdcb40}
+      \strng{bibnamehash}{038108ab882df8ebd9dad908c0bdcb40}
+      \strng{authorbibnamehash}{038108ab882df8ebd9dad908c0bdcb40}
+      \strng{authornamehash}{038108ab882df8ebd9dad908c0bdcb40}
+      \strng{authorfullhash}{038108ab882df8ebd9dad908c0bdcb40}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences}
+      \field{number}{5}
+      \field{title}{Complexity and completeness of finding another solution and its application to puzzles}
+      \field{volume}{E86-A}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{pages}{1052\bibrangedash 1060}
+      \range{pages}{9}
+    \endentry
+    \entry{Felgenhauer2005}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=f1c6da134e18ac95b7993a70491f7ace}{%
+           family={Felgenhauer},
+           familyi={F\bibinitperiod},
+           given={Bertram},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4bec714e66c00ecc33fb05027aa76a7f}{%
+           family={Jarvis},
+           familyi={J\bibinitperiod},
+           given={Frazer},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c0d16989d8cb0f2fa6961bc859df851}
+      \strng{fullhash}{0c0d16989d8cb0f2fa6961bc859df851}
+      \strng{bibnamehash}{0c0d16989d8cb0f2fa6961bc859df851}
+      \strng{authorbibnamehash}{0c0d16989d8cb0f2fa6961bc859df851}
+      \strng{authornamehash}{0c0d16989d8cb0f2fa6961bc859df851}
+      \strng{authorfullhash}{0c0d16989d8cb0f2fa6961bc859df851}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online, archived from original}
+      \field{note}{TU Dresden and University of Sheffield. Archived version from Wayback Machine}
+      \field{title}{Enumerating possible Sudoku grids}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://web.archive.org/web/20060209020009/http://www.afjarvis.staff.shef.ac.uk/sudoku/sudoku.pdf
+      \endverb
+      \verb{url}
+      \verb https://web.archive.org/web/20060209020009/http://www.afjarvis.staff.shef.ac.uk/sudoku/sudoku.pdf
+      \endverb
+    \endentry
+    \entry{sudoku-puzzles.net}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{title}{Sudoku-Puzzles}
+      \field{urlday}{27}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://sudoku-puzzles.net/all-puzzle-types/
+      \endverb
+      \verb{url}
+      \verb https://sudoku-puzzles.net/all-puzzle-types/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
